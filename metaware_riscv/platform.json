@@ -1,0 +1,27 @@
+{
+  "name": "metaware_riscv",
+  "title": "Metaware Risc-V",
+  "description": "Metaware ARC Risc-V series",
+  "homepage": "https://www.synopsys.com",
+  "license": "Apache-2.0",
+  "keywords": [
+      "dev-platform",
+      "Metaware",
+      "Risc-V",
+      "SNPS"
+  ],
+  "engines": {
+    "platformio": "^6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foss-for-synopsys-dwc-arc-processors/platformio-metaware-riscv.git"
+  },
+  "version": "1.1.0",
+  "packages": {
+    "toolchain-gccmetaware": {
+      "type": "toolchain",
+      "version": ">=1.202312.0"
+    }
+  }
+}
