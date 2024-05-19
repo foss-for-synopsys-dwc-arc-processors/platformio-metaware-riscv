@@ -8,8 +8,7 @@ The Metaware Risc-V is the latest ARC Metaware Risc-V series.
 
 # Usage
 
-1. [Install PlatformIO](https://platformio.org)
-2. Create PlatformIO project and configure a platform option in [platformio.ini](https://docs.platformio.org/page/projectconf.html) file:
+see QuickStart for MetaWare Risc-V VSCode based IDE.pptx
 
 ## Stable version
 
@@ -20,14 +19,6 @@ board = ...
 ...
 ```
 
-## Development version
-
-```ini
-[env:development]
-platform = https://github.com/platformio/platform-metaware_riscv.git
-board = ...
-...
-```
 
 # Configuration
 
